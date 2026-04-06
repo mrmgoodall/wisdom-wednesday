@@ -1,4 +1,4 @@
-toml[build]
+[build]
   command = "node inject-key.js"
   publish = "."
 
@@ -7,6 +7,3 @@ toml[build]
   to = "/index.html"
   status = 200
 
-Click Commit changes
-
-Then go to Netlify → Deploys → Trigger deploy → Deploy site. Tell me what happens.
