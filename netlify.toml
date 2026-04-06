@@ -1,7 +1,12 @@
-[build]
-  functions = "netlify/functions"
+toml[build]
+  command = "node inject-key.js"
+  publish = "."
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+Click Commit changes
+
+Then go to Netlify → Deploys → Trigger deploy → Deploy site. Tell me what happens.
